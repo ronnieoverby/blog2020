@@ -1,0 +1,36 @@
+baseURL = "https://ronn.io"
+languageCode = "en-us"
+title = "ronn.io"
+theme = "Bare"
+enableGitInfo = true
+disqusShortname = "ronnieoverby"
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+[params]
+disableAttribution = true
+mainSections = ["post"]
+author = "Ronnie Overby"
+email = "ro@ronn.io"
+repoLink = "https://github.com/ronnieoverby/ronn.io"
+description = 'a guy'
+# PostCSS is harder than it should be to get working on a theme
+# example site. It's easy on _your_ site.
+postcss = true
+# Include the author name in the <title> of articles
+includeAuthorInTitle = true
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/ronnieoverby/"
+
+[[params.social]]
+icon = "linkedin"
+url = "https://linkedin.com/in/ronnie-overby"
+
+[[params.social]]
+icon = "instagram"
+url = "https://www.instagram.com/overbyronnie/"
+
